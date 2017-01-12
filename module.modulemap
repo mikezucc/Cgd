@@ -1,42 +1,13 @@
 module Cgdlinux [system] {
 	header "/usr/include/gd.h"
-	link "gd"
-	export *
-}
-
-module Cgdlinux [system] {
 	header "/usr/include/gdfontg.h"
-	link "gd"
-	export *
-}
-
-module Cgdlinux [system] {
 	header "/usr/include/gdfontl.h"
-	link "gd"
-	export *
-}
-
-
-module Cgdlinux [system] {
 	header "/usr/include/gdfontmb.h"
-	link "gd"
-	export *
-}
-
-
-module Cgdlinux [system] {
 	header "/usr/include/gdfonts.h"
-	link "gd"
-	export *
-}
-
-
-module Cgdlinux [system] {
 	header "/usr/include/gdfontt.h"
 	link "gd"
 	export *
 }
-
 
 module Cgdmac [system] {
 	header "/usr/local/include/gd.h"
